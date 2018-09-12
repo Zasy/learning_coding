@@ -1,3 +1,7 @@
+//
+// Created by 张哲 on 2018/9/13.
+// DFS的递归举例
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -50,6 +54,8 @@ int main(){
     }
     cout << result;
 }
+
+
 
 
 

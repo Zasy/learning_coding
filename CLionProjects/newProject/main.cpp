@@ -1,48 +1,30 @@
-//
-// Created by zhanGGe on 2018/9/4.
-// 数组中重复的数字 n 个数 范围是0-n-1
-// 把所有数放到其原本的地方
-#include <iostream>
 #include <vector>
-#include <time.h>
-
+#include <deque>          // std::deque
+#include <list>           // std::list
+#include <queue>          // std::queue
+#include <iostream>
+#include <algorithm>
+#include <map>
+#include <string>
 using namespace std;
 
-int divide(vector<int> &a, int low, int high) {
-    int k = a[low];
-
-    while(low != high) {
-        while(low < high && a[high] > k) high--;
-        if(low < high) {
-            a[low] = a[high];
-            low++;
-        }
-        while(low < high && a[low] < k) low++;
-        if(low < high) {
-            a[high] = a[low];
-            high--;
-        }
-    }
-    a[low] = k;
-
-    return low;
-}
+struct Data {
+    int age;
+    string name;
+};
 
 int main() {
-    time_t start ,end ;
-    double cost;
+    int N,M;
+    cin >> N >> M;
+    vector<Data> test;
+    for(int i = 0; i < N ; i++){
+        Data test_temp;
+        cin >> test_temp.age >> test_temp.name;
+        test.push_back(test_temp);
+    }
 
-    vector<int> test = {3, 8, 9, 1, 2, 4};
-
-    vector<int> test2 = {2, 3, 4, 4, 5, 6};
-    time(&start);
-    int result = divide(test, 0, 5);
-    time(&end);
-
-    for(int i = 0; i < test.size(); i++) cout << test[i] << endl;
-
-    cost=difftime(end,start);
-    cout << "result: " << result << endl;
-    cout << "cost: " << cost << endl;
-    return 0;
+    for(int i = 0; i < N; i++) {
+        cout << test[i].age << test[i].name << endl;
+    }
 }
+

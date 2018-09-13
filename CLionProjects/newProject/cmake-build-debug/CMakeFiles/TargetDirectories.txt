@@ -1,3 +1,3 @@
-/Users/Mac/CLionProjects/newProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/Mac/CLionProjects/newProject/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/Mac/CLionProjects/newProject/cmake-build-debug/CMakeFiles/newProject.dir
+/Users/Mac/gitcode/learning_coding/CLionProjects/newProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Mac/gitcode/learning_coding/CLionProjects/newProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Mac/gitcode/learning_coding/CLionProjects/newProject/cmake-build-debug/CMakeFiles/newProject.dir

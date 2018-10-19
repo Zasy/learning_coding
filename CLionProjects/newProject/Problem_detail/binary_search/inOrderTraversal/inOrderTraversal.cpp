@@ -53,3 +53,39 @@ public:
 };
 
 
+
+
+
+vector<int> midOrderTraversal(TreeNode* root){
+    vector<int> result;
+
+//    if(root == nullptr){
+//        return result;
+//    }
+//
+//    if(root->left) midTraversal(result, root->left);
+//    root.push_back(root->val);
+//    if(root->right) midOrderTraversal(result, root->right);
+    TreeNode* p = head;
+    stack<TreeNode*> s;
+
+    while(p || !s.empty()){
+        if(p){
+            s.push(p);
+            p = p->left;
+        }else{
+            TreeNode* temp = s.top();
+            s.pop();
+            result.push_back(temp);
+            p = temp->right;
+        }
+    }
+
+    return result;
+}
+
+
+
+
+
+

@@ -1,30 +1,41 @@
+//
+// Created by 张哲 on 2018/9/15.
+//
+
 #include <vector>
-#include <deque>          // std::deque
-#include <list>           // std::list
-#include <queue>          // std::queue
 #include <iostream>
-#include <algorithm>
-#include <map>
 #include <string>
 using namespace std;
 
-struct Data {
-    int age;
-    string name;
-};
-
-int main() {
-    int N,M;
-    cin >> N >> M;
-    vector<Data> test;
-    for(int i = 0; i < N ; i++){
-        Data test_temp;
-        cin >> test_temp.age >> test_temp.name;
-        test.push_back(test_temp);
+int main(){
+    int N, M, P;
+    cin >> N >> M >> P;
+    vector<int> A(N, 0);
+    for(int i = 0; i < N; i++){
+        cin >> A[i];
     }
 
-    for(int i = 0; i < N; i++) {
-        cout << test[i].age << test[i].name << endl;
+    for(int i = 0 ; i < M; i++){
+        string leixing;
+        int  temp;
+        cin >> leixing >> temp;
+        if (leixing == "A") {
+            A[temp]++;
+        }else{
+            A[temp]--;
+        }
     }
+    int val = A[P];
+    int count = 0;
+    for(int i=0; i < N; i++){
+        if(A[i] > val){
+            count++;
+        }
+    }
+    cout << count + 1 << endl;
+    return 0;
 }
+
+
+
 

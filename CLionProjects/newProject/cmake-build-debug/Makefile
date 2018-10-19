@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/Mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/tx-markzzhang/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/Mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = "/Users/tx-markzzhang/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Mac/CLionProjects/newProject
+CMAKE_SOURCE_DIR = /Users/tx-markzzhang/learning_coding/CLionProjects/newProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Mac/CLionProjects/newProject/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/Mac/CLionProjects/newProject/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/Mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/tx-markzzhang/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/Mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/tx-markzzhang/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Mac/CLionProjects/newProject/cmake-build-debug/CMakeFiles /Users/Mac/CLionProjects/newProject/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/CMakeFiles /Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Mac/CLionProjects/newProject/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,438 @@ newProject/fast:
 	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/build
 .PHONY : newProject/fast
 
+Problem_detail/Math/Combinator.o: Problem_detail/Math/Combinator.cpp.o
+
+.PHONY : Problem_detail/Math/Combinator.o
+
+# target to build an object file
+Problem_detail/Math/Combinator.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/Math/Combinator.cpp.o
+.PHONY : Problem_detail/Math/Combinator.cpp.o
+
+Problem_detail/Math/Combinator.i: Problem_detail/Math/Combinator.cpp.i
+
+.PHONY : Problem_detail/Math/Combinator.i
+
+# target to preprocess a source file
+Problem_detail/Math/Combinator.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/Math/Combinator.cpp.i
+.PHONY : Problem_detail/Math/Combinator.cpp.i
+
+Problem_detail/Math/Combinator.s: Problem_detail/Math/Combinator.cpp.s
+
+.PHONY : Problem_detail/Math/Combinator.s
+
+# target to generate assembly for a file
+Problem_detail/Math/Combinator.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/Math/Combinator.cpp.s
+.PHONY : Problem_detail/Math/Combinator.cpp.s
+
+Problem_detail/bfs/reBFS/reBFS.o: Problem_detail/bfs/reBFS/reBFS.cpp.o
+
+.PHONY : Problem_detail/bfs/reBFS/reBFS.o
+
+# target to build an object file
+Problem_detail/bfs/reBFS/reBFS.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/bfs/reBFS/reBFS.cpp.o
+.PHONY : Problem_detail/bfs/reBFS/reBFS.cpp.o
+
+Problem_detail/bfs/reBFS/reBFS.i: Problem_detail/bfs/reBFS/reBFS.cpp.i
+
+.PHONY : Problem_detail/bfs/reBFS/reBFS.i
+
+# target to preprocess a source file
+Problem_detail/bfs/reBFS/reBFS.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/bfs/reBFS/reBFS.cpp.i
+.PHONY : Problem_detail/bfs/reBFS/reBFS.cpp.i
+
+Problem_detail/bfs/reBFS/reBFS.s: Problem_detail/bfs/reBFS/reBFS.cpp.s
+
+.PHONY : Problem_detail/bfs/reBFS/reBFS.s
+
+# target to generate assembly for a file
+Problem_detail/bfs/reBFS/reBFS.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/bfs/reBFS/reBFS.cpp.s
+.PHONY : Problem_detail/bfs/reBFS/reBFS.cpp.s
+
+Problem_detail/dfs/NonRecrusiveDFS.o: Problem_detail/dfs/NonRecrusiveDFS.cpp.o
+
+.PHONY : Problem_detail/dfs/NonRecrusiveDFS.o
+
+# target to build an object file
+Problem_detail/dfs/NonRecrusiveDFS.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/dfs/NonRecrusiveDFS.cpp.o
+.PHONY : Problem_detail/dfs/NonRecrusiveDFS.cpp.o
+
+Problem_detail/dfs/NonRecrusiveDFS.i: Problem_detail/dfs/NonRecrusiveDFS.cpp.i
+
+.PHONY : Problem_detail/dfs/NonRecrusiveDFS.i
+
+# target to preprocess a source file
+Problem_detail/dfs/NonRecrusiveDFS.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/dfs/NonRecrusiveDFS.cpp.i
+.PHONY : Problem_detail/dfs/NonRecrusiveDFS.cpp.i
+
+Problem_detail/dfs/NonRecrusiveDFS.s: Problem_detail/dfs/NonRecrusiveDFS.cpp.s
+
+.PHONY : Problem_detail/dfs/NonRecrusiveDFS.s
+
+# target to generate assembly for a file
+Problem_detail/dfs/NonRecrusiveDFS.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/dfs/NonRecrusiveDFS.cpp.s
+.PHONY : Problem_detail/dfs/NonRecrusiveDFS.cpp.s
+
+Problem_detail/dfs/RecrusiveDFS/dfs.o: Problem_detail/dfs/RecrusiveDFS/dfs.cpp.o
+
+.PHONY : Problem_detail/dfs/RecrusiveDFS/dfs.o
+
+# target to build an object file
+Problem_detail/dfs/RecrusiveDFS/dfs.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/dfs/RecrusiveDFS/dfs.cpp.o
+.PHONY : Problem_detail/dfs/RecrusiveDFS/dfs.cpp.o
+
+Problem_detail/dfs/RecrusiveDFS/dfs.i: Problem_detail/dfs/RecrusiveDFS/dfs.cpp.i
+
+.PHONY : Problem_detail/dfs/RecrusiveDFS/dfs.i
+
+# target to preprocess a source file
+Problem_detail/dfs/RecrusiveDFS/dfs.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/dfs/RecrusiveDFS/dfs.cpp.i
+.PHONY : Problem_detail/dfs/RecrusiveDFS/dfs.cpp.i
+
+Problem_detail/dfs/RecrusiveDFS/dfs.s: Problem_detail/dfs/RecrusiveDFS/dfs.cpp.s
+
+.PHONY : Problem_detail/dfs/RecrusiveDFS/dfs.s
+
+# target to generate assembly for a file
+Problem_detail/dfs/RecrusiveDFS/dfs.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/dfs/RecrusiveDFS/dfs.cpp.s
+.PHONY : Problem_detail/dfs/RecrusiveDFS/dfs.cpp.s
+
+Problem_detail/iqiyi/test1/test1.o: Problem_detail/iqiyi/test1/test1.cpp.o
+
+.PHONY : Problem_detail/iqiyi/test1/test1.o
+
+# target to build an object file
+Problem_detail/iqiyi/test1/test1.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/iqiyi/test1/test1.cpp.o
+.PHONY : Problem_detail/iqiyi/test1/test1.cpp.o
+
+Problem_detail/iqiyi/test1/test1.i: Problem_detail/iqiyi/test1/test1.cpp.i
+
+.PHONY : Problem_detail/iqiyi/test1/test1.i
+
+# target to preprocess a source file
+Problem_detail/iqiyi/test1/test1.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/iqiyi/test1/test1.cpp.i
+.PHONY : Problem_detail/iqiyi/test1/test1.cpp.i
+
+Problem_detail/iqiyi/test1/test1.s: Problem_detail/iqiyi/test1/test1.cpp.s
+
+.PHONY : Problem_detail/iqiyi/test1/test1.s
+
+# target to generate assembly for a file
+Problem_detail/iqiyi/test1/test1.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/iqiyi/test1/test1.cpp.s
+.PHONY : Problem_detail/iqiyi/test1/test1.cpp.s
+
+Problem_detail/iqiyi/test2/test2.o: Problem_detail/iqiyi/test2/test2.cpp.o
+
+.PHONY : Problem_detail/iqiyi/test2/test2.o
+
+# target to build an object file
+Problem_detail/iqiyi/test2/test2.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/iqiyi/test2/test2.cpp.o
+.PHONY : Problem_detail/iqiyi/test2/test2.cpp.o
+
+Problem_detail/iqiyi/test2/test2.i: Problem_detail/iqiyi/test2/test2.cpp.i
+
+.PHONY : Problem_detail/iqiyi/test2/test2.i
+
+# target to preprocess a source file
+Problem_detail/iqiyi/test2/test2.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/iqiyi/test2/test2.cpp.i
+.PHONY : Problem_detail/iqiyi/test2/test2.cpp.i
+
+Problem_detail/iqiyi/test2/test2.s: Problem_detail/iqiyi/test2/test2.cpp.s
+
+.PHONY : Problem_detail/iqiyi/test2/test2.s
+
+# target to generate assembly for a file
+Problem_detail/iqiyi/test2/test2.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/iqiyi/test2/test2.cpp.s
+.PHONY : Problem_detail/iqiyi/test2/test2.cpp.s
+
+Problem_detail/string/firstMissingPositive.o: Problem_detail/string/firstMissingPositive.cpp.o
+
+.PHONY : Problem_detail/string/firstMissingPositive.o
+
+# target to build an object file
+Problem_detail/string/firstMissingPositive.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/string/firstMissingPositive.cpp.o
+.PHONY : Problem_detail/string/firstMissingPositive.cpp.o
+
+Problem_detail/string/firstMissingPositive.i: Problem_detail/string/firstMissingPositive.cpp.i
+
+.PHONY : Problem_detail/string/firstMissingPositive.i
+
+# target to preprocess a source file
+Problem_detail/string/firstMissingPositive.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/string/firstMissingPositive.cpp.i
+.PHONY : Problem_detail/string/firstMissingPositive.cpp.i
+
+Problem_detail/string/firstMissingPositive.s: Problem_detail/string/firstMissingPositive.cpp.s
+
+.PHONY : Problem_detail/string/firstMissingPositive.s
+
+# target to generate assembly for a file
+Problem_detail/string/firstMissingPositive.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/string/firstMissingPositive.cpp.s
+.PHONY : Problem_detail/string/firstMissingPositive.cpp.s
+
+Problem_detail/string/removeComments.o: Problem_detail/string/removeComments.cpp.o
+
+.PHONY : Problem_detail/string/removeComments.o
+
+# target to build an object file
+Problem_detail/string/removeComments.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/string/removeComments.cpp.o
+.PHONY : Problem_detail/string/removeComments.cpp.o
+
+Problem_detail/string/removeComments.i: Problem_detail/string/removeComments.cpp.i
+
+.PHONY : Problem_detail/string/removeComments.i
+
+# target to preprocess a source file
+Problem_detail/string/removeComments.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/string/removeComments.cpp.i
+.PHONY : Problem_detail/string/removeComments.cpp.i
+
+Problem_detail/string/removeComments.s: Problem_detail/string/removeComments.cpp.s
+
+.PHONY : Problem_detail/string/removeComments.s
+
+# target to generate assembly for a file
+Problem_detail/string/removeComments.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/string/removeComments.cpp.s
+.PHONY : Problem_detail/string/removeComments.cpp.s
+
+Problem_detail/test/ptrace/ptrace.o: Problem_detail/test/ptrace/ptrace.cpp.o
+
+.PHONY : Problem_detail/test/ptrace/ptrace.o
+
+# target to build an object file
+Problem_detail/test/ptrace/ptrace.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/test/ptrace/ptrace.cpp.o
+.PHONY : Problem_detail/test/ptrace/ptrace.cpp.o
+
+Problem_detail/test/ptrace/ptrace.i: Problem_detail/test/ptrace/ptrace.cpp.i
+
+.PHONY : Problem_detail/test/ptrace/ptrace.i
+
+# target to preprocess a source file
+Problem_detail/test/ptrace/ptrace.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/test/ptrace/ptrace.cpp.i
+.PHONY : Problem_detail/test/ptrace/ptrace.cpp.i
+
+Problem_detail/test/ptrace/ptrace.s: Problem_detail/test/ptrace/ptrace.cpp.s
+
+.PHONY : Problem_detail/test/ptrace/ptrace.s
+
+# target to generate assembly for a file
+Problem_detail/test/ptrace/ptrace.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/test/ptrace/ptrace.cpp.s
+.PHONY : Problem_detail/test/ptrace/ptrace.cpp.s
+
+Problem_detail/toutiao/test1.o: Problem_detail/toutiao/test1.cpp.o
+
+.PHONY : Problem_detail/toutiao/test1.o
+
+# target to build an object file
+Problem_detail/toutiao/test1.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test1.cpp.o
+.PHONY : Problem_detail/toutiao/test1.cpp.o
+
+Problem_detail/toutiao/test1.i: Problem_detail/toutiao/test1.cpp.i
+
+.PHONY : Problem_detail/toutiao/test1.i
+
+# target to preprocess a source file
+Problem_detail/toutiao/test1.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test1.cpp.i
+.PHONY : Problem_detail/toutiao/test1.cpp.i
+
+Problem_detail/toutiao/test1.s: Problem_detail/toutiao/test1.cpp.s
+
+.PHONY : Problem_detail/toutiao/test1.s
+
+# target to generate assembly for a file
+Problem_detail/toutiao/test1.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test1.cpp.s
+.PHONY : Problem_detail/toutiao/test1.cpp.s
+
+Problem_detail/toutiao/test2.o: Problem_detail/toutiao/test2.cpp.o
+
+.PHONY : Problem_detail/toutiao/test2.o
+
+# target to build an object file
+Problem_detail/toutiao/test2.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test2.cpp.o
+.PHONY : Problem_detail/toutiao/test2.cpp.o
+
+Problem_detail/toutiao/test2.i: Problem_detail/toutiao/test2.cpp.i
+
+.PHONY : Problem_detail/toutiao/test2.i
+
+# target to preprocess a source file
+Problem_detail/toutiao/test2.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test2.cpp.i
+.PHONY : Problem_detail/toutiao/test2.cpp.i
+
+Problem_detail/toutiao/test2.s: Problem_detail/toutiao/test2.cpp.s
+
+.PHONY : Problem_detail/toutiao/test2.s
+
+# target to generate assembly for a file
+Problem_detail/toutiao/test2.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test2.cpp.s
+.PHONY : Problem_detail/toutiao/test2.cpp.s
+
+Problem_detail/toutiao/test3.o: Problem_detail/toutiao/test3.cpp.o
+
+.PHONY : Problem_detail/toutiao/test3.o
+
+# target to build an object file
+Problem_detail/toutiao/test3.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test3.cpp.o
+.PHONY : Problem_detail/toutiao/test3.cpp.o
+
+Problem_detail/toutiao/test3.i: Problem_detail/toutiao/test3.cpp.i
+
+.PHONY : Problem_detail/toutiao/test3.i
+
+# target to preprocess a source file
+Problem_detail/toutiao/test3.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test3.cpp.i
+.PHONY : Problem_detail/toutiao/test3.cpp.i
+
+Problem_detail/toutiao/test3.s: Problem_detail/toutiao/test3.cpp.s
+
+.PHONY : Problem_detail/toutiao/test3.s
+
+# target to generate assembly for a file
+Problem_detail/toutiao/test3.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test3.cpp.s
+.PHONY : Problem_detail/toutiao/test3.cpp.s
+
+Problem_detail/toutiao/test4.o: Problem_detail/toutiao/test4.cpp.o
+
+.PHONY : Problem_detail/toutiao/test4.o
+
+# target to build an object file
+Problem_detail/toutiao/test4.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test4.cpp.o
+.PHONY : Problem_detail/toutiao/test4.cpp.o
+
+Problem_detail/toutiao/test4.i: Problem_detail/toutiao/test4.cpp.i
+
+.PHONY : Problem_detail/toutiao/test4.i
+
+# target to preprocess a source file
+Problem_detail/toutiao/test4.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test4.cpp.i
+.PHONY : Problem_detail/toutiao/test4.cpp.i
+
+Problem_detail/toutiao/test4.s: Problem_detail/toutiao/test4.cpp.s
+
+.PHONY : Problem_detail/toutiao/test4.s
+
+# target to generate assembly for a file
+Problem_detail/toutiao/test4.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test4.cpp.s
+.PHONY : Problem_detail/toutiao/test4.cpp.s
+
+Problem_detail/toutiao/test5.o: Problem_detail/toutiao/test5.cpp.o
+
+.PHONY : Problem_detail/toutiao/test5.o
+
+# target to build an object file
+Problem_detail/toutiao/test5.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test5.cpp.o
+.PHONY : Problem_detail/toutiao/test5.cpp.o
+
+Problem_detail/toutiao/test5.i: Problem_detail/toutiao/test5.cpp.i
+
+.PHONY : Problem_detail/toutiao/test5.i
+
+# target to preprocess a source file
+Problem_detail/toutiao/test5.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test5.cpp.i
+.PHONY : Problem_detail/toutiao/test5.cpp.i
+
+Problem_detail/toutiao/test5.s: Problem_detail/toutiao/test5.cpp.s
+
+.PHONY : Problem_detail/toutiao/test5.s
+
+# target to generate assembly for a file
+Problem_detail/toutiao/test5.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/toutiao/test5.cpp.s
+.PHONY : Problem_detail/toutiao/test5.cpp.s
+
+Problem_detail/vector/remove.o: Problem_detail/vector/remove.cpp.o
+
+.PHONY : Problem_detail/vector/remove.o
+
+# target to build an object file
+Problem_detail/vector/remove.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/vector/remove.cpp.o
+.PHONY : Problem_detail/vector/remove.cpp.o
+
+Problem_detail/vector/remove.i: Problem_detail/vector/remove.cpp.i
+
+.PHONY : Problem_detail/vector/remove.i
+
+# target to preprocess a source file
+Problem_detail/vector/remove.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/vector/remove.cpp.i
+.PHONY : Problem_detail/vector/remove.cpp.i
+
+Problem_detail/vector/remove.s: Problem_detail/vector/remove.cpp.s
+
+.PHONY : Problem_detail/vector/remove.s
+
+# target to generate assembly for a file
+Problem_detail/vector/remove.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/Problem_detail/vector/remove.cpp.s
+.PHONY : Problem_detail/vector/remove.cpp.s
+
+example.o: example.cpp.o
+
+.PHONY : example.o
+
+# target to build an object file
+example.cpp.o:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/example.cpp.o
+.PHONY : example.cpp.o
+
+example.i: example.cpp.i
+
+.PHONY : example.i
+
+# target to preprocess a source file
+example.cpp.i:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/example.cpp.i
+.PHONY : example.cpp.i
+
+example.s: example.cpp.s
+
+.PHONY : example.s
+
+# target to generate assembly for a file
+example.cpp.s:
+	$(MAKE) -f CMakeFiles/newProject.dir/build.make CMakeFiles/newProject.dir/example.cpp.s
+.PHONY : example.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +591,54 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... newProject"
+	@echo "... Problem_detail/Math/Combinator.o"
+	@echo "... Problem_detail/Math/Combinator.i"
+	@echo "... Problem_detail/Math/Combinator.s"
+	@echo "... Problem_detail/bfs/reBFS/reBFS.o"
+	@echo "... Problem_detail/bfs/reBFS/reBFS.i"
+	@echo "... Problem_detail/bfs/reBFS/reBFS.s"
+	@echo "... Problem_detail/dfs/NonRecrusiveDFS.o"
+	@echo "... Problem_detail/dfs/NonRecrusiveDFS.i"
+	@echo "... Problem_detail/dfs/NonRecrusiveDFS.s"
+	@echo "... Problem_detail/dfs/RecrusiveDFS/dfs.o"
+	@echo "... Problem_detail/dfs/RecrusiveDFS/dfs.i"
+	@echo "... Problem_detail/dfs/RecrusiveDFS/dfs.s"
+	@echo "... Problem_detail/iqiyi/test1/test1.o"
+	@echo "... Problem_detail/iqiyi/test1/test1.i"
+	@echo "... Problem_detail/iqiyi/test1/test1.s"
+	@echo "... Problem_detail/iqiyi/test2/test2.o"
+	@echo "... Problem_detail/iqiyi/test2/test2.i"
+	@echo "... Problem_detail/iqiyi/test2/test2.s"
+	@echo "... Problem_detail/string/firstMissingPositive.o"
+	@echo "... Problem_detail/string/firstMissingPositive.i"
+	@echo "... Problem_detail/string/firstMissingPositive.s"
+	@echo "... Problem_detail/string/removeComments.o"
+	@echo "... Problem_detail/string/removeComments.i"
+	@echo "... Problem_detail/string/removeComments.s"
+	@echo "... Problem_detail/test/ptrace/ptrace.o"
+	@echo "... Problem_detail/test/ptrace/ptrace.i"
+	@echo "... Problem_detail/test/ptrace/ptrace.s"
+	@echo "... Problem_detail/toutiao/test1.o"
+	@echo "... Problem_detail/toutiao/test1.i"
+	@echo "... Problem_detail/toutiao/test1.s"
+	@echo "... Problem_detail/toutiao/test2.o"
+	@echo "... Problem_detail/toutiao/test2.i"
+	@echo "... Problem_detail/toutiao/test2.s"
+	@echo "... Problem_detail/toutiao/test3.o"
+	@echo "... Problem_detail/toutiao/test3.i"
+	@echo "... Problem_detail/toutiao/test3.s"
+	@echo "... Problem_detail/toutiao/test4.o"
+	@echo "... Problem_detail/toutiao/test4.i"
+	@echo "... Problem_detail/toutiao/test4.s"
+	@echo "... Problem_detail/toutiao/test5.o"
+	@echo "... Problem_detail/toutiao/test5.i"
+	@echo "... Problem_detail/toutiao/test5.s"
+	@echo "... Problem_detail/vector/remove.o"
+	@echo "... Problem_detail/vector/remove.i"
+	@echo "... Problem_detail/vector/remove.s"
+	@echo "... example.o"
+	@echo "... example.i"
+	@echo "... example.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

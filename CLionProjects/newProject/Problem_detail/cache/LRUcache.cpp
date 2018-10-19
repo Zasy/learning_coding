@@ -4,7 +4,6 @@
 #include <unordered_map>
 
 using namespace std;
-
 class LRUCache {
 public:
     LRUCache : capacity(int capacity){}

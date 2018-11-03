@@ -1,0 +1,3 @@
+/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/CMakeFiles/newProject.dir

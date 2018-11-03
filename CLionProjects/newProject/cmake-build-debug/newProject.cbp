@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="newProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="newProject">
+				<Option output="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/newProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 newProject"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="newProject/fast">
+				<Option output="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/newProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 newProject/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/C++/11/initializer_list.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/C++/11/rvref.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/Math/Combinator.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/bfs/reBFS/reBFS.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/dfs/NonRecrusiveDFS.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/dfs/RecrusiveDFS/dfs.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/didi/cheapest.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/iqiyi/test1/test1.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/iqiyi/test2/test2.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/meituan/test1.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/meituan/test2.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/rect.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/splunk/test1.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/splunk/test2.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/string/firstMissingPositive.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/string/removeComments.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/test/ptrace/ptrace.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/toutiao/test1.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/toutiao/test2.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/toutiao/test3.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/toutiao/test4.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/toutiao/test5.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/Problem_detail/vector/remove.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/example.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/main.cpp">
+			<Option target="newProject"/>
+		</Unit>
+		<Unit filename="/Users/tx-markzzhang/learning_coding/CLionProjects/newProject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

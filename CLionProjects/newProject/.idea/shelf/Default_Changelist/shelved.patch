@@ -1,0 +1,25 @@
+Index: cmake-build-debug/CMakeFiles/newProject.dir/cmake_clean.cmake
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>file(REMOVE_RECURSE\n  \"CMakeFiles/newProject.dir/main.cpp.o\"\n  \"newProject.pdb\"\n  \"newProject\"\n)\n\n# Per-language clean rules from dependency scanning.\nforeach(lang CXX)\n  include(CMakeFiles/newProject.dir/cmake_clean_${lang}.cmake OPTIONAL)\nendforeach()\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- cmake-build-debug/CMakeFiles/newProject.dir/cmake_clean.cmake	(revision 77da30b9b0a33ca734442e98b03e908a77fd828d)
++++ cmake-build-debug/CMakeFiles/newProject.dir/cmake_clean.cmake	(date 1536780975000)
+@@ -1,5 +1,15 @@
+ file(REMOVE_RECURSE
+   "CMakeFiles/newProject.dir/main.cpp.o"
++  "CMakeFiles/newProject.dir/Problem_detail/Math/Combinator.cpp.o"
++  "CMakeFiles/newProject.dir/example.cpp.o"
++  "CMakeFiles/newProject.dir/Problem_detail/toutiao/test1.cpp.o"
++  "CMakeFiles/newProject.dir/Problem_detail/toutiao/test2.cpp.o"
++  "CMakeFiles/newProject.dir/Problem_detail/toutiao/test3.cpp.o"
++  "CMakeFiles/newProject.dir/Problem_detail/toutiao/test4.cpp.o"
++  "CMakeFiles/newProject.dir/Problem_detail/toutiao/test5.cpp.o"
++  "CMakeFiles/newProject.dir/Problem_detail/dfs/RecrusiveDFS/dfs.cpp.o"
++  "CMakeFiles/newProject.dir/Problem_detail/dfs/NonRecrusiveDFS.cpp.o"
++  "CMakeFiles/newProject.dir/Problem_detail/bfs/reBFS/reBFS.cpp.o"
+   "newProject.pdb"
+   "newProject"
+ )

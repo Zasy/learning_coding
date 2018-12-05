@@ -24,12 +24,11 @@ int partition(vector<int> & data, int left, int right){
     }
 
     data[left] = k;
-
     return left;
 }
 
 
-void quickSort(vector<int> &data, int left, int right){
+int quickSort(vector<int> &data, int left, int right){
     int mid = partition(data, left, right);
     if(left < mid - 1){
         quickSort(data, left, mid - 1);
@@ -45,7 +44,7 @@ int main(){
     quickSort(data, 0, data.size() - 1);
 
     for(auto d : data){
-        cout << d << ", ";
+        cout << d << " ";
     }
     cout << endl;
 }

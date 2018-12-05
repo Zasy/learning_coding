@@ -18,8 +18,8 @@ int depthBinaryTree(TreeNode* root, int & max){
         return 0;
     }
 
-    int l = depthBinaryTree(root->left);
-    int r = depthBinaryTree(root->right);
+    int l = depthBinaryTree(root->left, max);
+    int r = depthBinaryTree(root->right, max);
 
     max = (l + r + 1) > max ? l + r + 1 : max;
     return (l > r) ? l + 1 : r + 1;
